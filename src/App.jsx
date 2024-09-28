@@ -7,6 +7,7 @@ import Chat from './Pages/Chat';
 import Graph from './Pages/Graph';
 
 
+
 const App = () => {
   return (
     <Router>
@@ -14,10 +15,11 @@ const App = () => {
         <Route path="/" element={<Home/>} />
         <Route path="/Study" element={<Study/>} />
         <Route path='/Chat' element={<Chat/>}></Route>
-        <Route path='Graph' element={<Graph/>}></Route>
+        <Route path='/Graph' element={<Graph/>}></Route>
       </Routes>
     </Router>
   );
 }
+
 
 export default App;
