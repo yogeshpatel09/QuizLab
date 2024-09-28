@@ -12,7 +12,7 @@ function Chat() {
     <div className="flex gap-1 flex-col">
       <div className="flex gap-2">
         <p className="font-bold">You</p>
-        <span className="text-sm md:text-base text-cyan-500">12:01 PM</span>
+        <span className="text-base md:text-lg  text-cyan-500">12:01 PM</span>
       </div>
       <p className="text-lg md:text-xl">What is capital of France?</p>
     </div>
@@ -22,7 +22,7 @@ function Chat() {
         <p className="text-cyan-500">AI</p>
       </div>
       <div className="flex gap-2">
-        <img className="h-8 md:h-12" src="/logoai.png" alt="" />
+        <img className="h-8 md:h-12 " src="/logoai.png" alt="" />
         <p className="text-sm md:text-lg py-2 px-4 bg-[#e8edf3] rounded-lg">
           The capital of France is Paris.
         </p>
@@ -32,7 +32,7 @@ function Chat() {
     <div className="flex gap-1 flex-col">
       <div className="flex gap-2">
         <p className="font-bold">You</p>
-        <span className="text-sm md:text-base text-cyan-500">12:02 PM</span>
+        <span className="   text-base     md:text-lg  text-cyan-500">12:02 PM</span>
       </div>
       <p className="text-lg md:text-xl">Thank You</p>
     </div>
